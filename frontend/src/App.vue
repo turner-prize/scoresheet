@@ -47,7 +47,7 @@ export default {
   },
   methods:{
     renderAll(){
-      axios.get("http://localhost:3001/api/scores")
+      axios.get("http://localhost:3000/api/scores")
           .then(res => {
             this.gamesPlayed = res.data.map(c=>c.gameNumber).length;
             this.w = res.data.map(c=>c.Will).reduce((partial_sum, a) => partial_sum + a,0)
