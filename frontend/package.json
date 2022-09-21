@@ -14,7 +14,7 @@
     "vue": "^2.6.10",
     "vue-chartjs": "^3.4.2",
     "vue-select": "^3.2.0",
-    "vuetify": "^2.1.10"
+    "vuetify": "^2.6.10"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.0.0",
